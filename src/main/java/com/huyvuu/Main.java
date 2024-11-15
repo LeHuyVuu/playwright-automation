@@ -10,12 +10,12 @@ public class Main {
         Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
         Page page = browser.newPage();
         page.setViewportSize(1000, 750);
-//               loginDemo(page);
-//               dinoGame(page);
-        //  AutoCapture(page, playwright, browser);
-        while (true){
-            playYouTubeVideoWithAutoSkip(page);
-        }
+       //       loginDemo(page);
+      //        dinoGame(page);
+         AutoCapture(page, playwright, browser);
+//        while (true){
+//            playYouTubeVideoWithAutoSkip(page);
+//        }
 
 
     }
